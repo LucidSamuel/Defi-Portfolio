@@ -16,8 +16,8 @@ function App() {
             } 
         }).then(res=> {
             setTxs(res.data.data)
-            console.log(res.data.data)
-        }).catch(error=> console.log(error))
+            
+        }).catch(error=> {})
     }, []);
 
     const handleChange = e => {
